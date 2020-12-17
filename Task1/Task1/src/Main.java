@@ -16,6 +16,6 @@ public class Main {
         }
 
         System.out.println();
-        System.out.println("The number of areas that can be divided by 3: " + Circle.getAmount());
+        System.out.println("The number of areas that can be divided by 3: " + Circle.getAMOUNT());
     }
 }
