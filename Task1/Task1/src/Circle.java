@@ -1,7 +1,7 @@
 public class Circle {
     private int radius;
     private final static double PI = 3.14;
-    private static int amount;
+    private static int AMOUNT;
 
     public Circle(){
 
@@ -15,15 +15,15 @@ public class Circle {
         double area = PI * Math.pow(radius, 2);
 
         if (area % 3 == 0){
-            amount++;
+            AMOUNT++;
         }
 
         return area;
     }
 
 
-    public static int getAmount() {
-        return amount;
+    public static int getAMOUNT() {
+        return AMOUNT;
     }
 
 }
